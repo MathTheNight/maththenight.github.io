@@ -51,37 +51,52 @@ body::-webkit-scrollbar {
 @keyframes up-to-down-logo {
     /* A goes from bottom and is in front*/
     0% {
-        transform: translate(36%, -240%);
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
     }
     40% {
-        transform: translate(36%, 110%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
         opacity: 1;
     }
     80% {
-        transform: translate(36%, 110%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
         opacity: 1;
     }
     100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
         opacity: 0;
-        transform: translate(36%, 130%);
-    }
+    } 
 }
 @keyframes down-to-up-logo {
     /* A goes from bottom and is in front*/
     0% {
-        transform: translate(36%, 500%);
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
     }
     40% {
-        transform: translate(36%, 115%);
-        opacity: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
     }
     80% {
-        transform: translate(36%, 115%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
         opacity: 1;
     }
     100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
         opacity: 0;
-        transform: translate(36%, 115%);
     }
 }
 
@@ -107,23 +122,27 @@ body::-webkit-scrollbar {
 }
 #logo-positionA {
     position: fixed; 
+    height: auto;
     z-index: 999;
     background-position: center;
-    width: 100%;
-    height: 20%; 
+    max-width: 100%;
     animation: up-to-down-logo 2.8s ease-out;
     animation-fill-mode: forwards;
     pointer-events: none;
+    display: block;
 }
 #logo-positionM {
     position: fixed; 
+    height: auto;
+    top: 0%;
+    left: 30%;
     z-index: 998;
     background-position: center;
-    width: 100%;
-    height: 20%; 
+    max-width: 100%;
     animation: down-to-up-logo 2.8s ease-out;
     animation-fill-mode: forwards;
     pointer-events: none;
+    display: block;
 }
 
 #fullscreen-div {
