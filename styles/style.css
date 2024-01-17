@@ -51,37 +51,37 @@ body::-webkit-scrollbar {
 @keyframes up-to-down-logo {
     /* A goes from bottom and is in front*/
     0% {
-        transform: translate(41%, -120%);
+        transform: translate(36%, -240%);
     }
     40% {
-        transform: translate(41%, 160%);
+        transform: translate(36%, 110%);
         opacity: 1;
     }
     80% {
-        transform: translate(41%, 160%);
+        transform: translate(36%, 110%);
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: translate(41%, 160%);
+        transform: translate(36%, 130%);
     }
 }
 @keyframes down-to-up-logo {
     /* A goes from bottom and is in front*/
     0% {
-        transform: translate(41%, 500%);
+        transform: translate(36%, 500%);
     }
     40% {
-        transform: translate(41%, 160%);
+        transform: translate(36%, 115%);
         opacity: 1;
     }
     80% {
-        transform: translate(41%, 160%);
+        transform: translate(36%, 115%);
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: translate(41%, 160%);
+        transform: translate(36%, 115%);
     }
 }
 
