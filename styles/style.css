@@ -73,6 +73,27 @@ body {
         transform: translate(41%, 160%);
     }
 }
+
+@keyframes button-highlight-in {
+    /* animation: background-animation-1 3s ease-out;
+    animation-fill-mode: forwards; */
+    0% {
+        background-image: url('../images/UI/buttonstrike2.png');
+    }
+    100% {
+        background-image: url('../images/UI/buttonstrike.png');
+    }
+}
+@keyframes button-highlight-out {
+    /* animation: background-animation-1 3s ease-out;
+    animation-fill-mode: forwards; */
+    0% {
+        background-image: url('../images/UI/buttonstrike.png');
+    }
+    100% {
+        background-image: url('../images/UI/buttonstrike2.png');
+    }
+}
 #logo-positionA {
     position: fixed; 
     z-index: 999;
@@ -81,6 +102,7 @@ body {
     height: 20%; 
     animation: up-to-down-logo 2.8s ease-out;
     animation-fill-mode: forwards;
+    pointer-events: none;
 }
 #logo-positionM {
     position: fixed; 
@@ -90,6 +112,7 @@ body {
     height: 20%; 
     animation: down-to-up-logo 2.8s ease-out;
     animation-fill-mode: forwards;
+    pointer-events: none;
 }
 
 #fullscreen-div {
@@ -101,6 +124,7 @@ body {
     z-index: 997;
     animation: background-animation-1 3s ease-out;
     animation-fill-mode: forwards;
+    pointer-events: none;
 }
 
 #banner {
@@ -133,7 +157,7 @@ body {
     width: 10%;
 }
 #selection2 a {
-    background-image: url('../images/UI/buttonstrike.png');
+    background-image: url('../images/UI/buttonstrike2.png');
     background-size: 90% 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -143,7 +167,19 @@ body {
     background-repeat: no-repeat;
     width: 1%;
     height: 100%;
+    z-index: 40;
     text-align: center;
+    text-decoration: none;
+    color: rgb(255, 185, 94);
+}
+
+#selection2 a:hover {
+    animation: button-highlight-in 0.5s ease-out;
+    animation-fill-mode: forwards;
+}
+#selection2 a:not(:hover) {
+    animation: button-highlight-out 0.5s ease-out;
+    animation-fill-mode: forwards;
 }
 
 #selection2 table {
