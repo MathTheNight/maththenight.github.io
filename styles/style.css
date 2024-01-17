@@ -59,6 +59,9 @@ body {
         transform: translate(41%, 160%);
         opacity: 1;
     }
+    90% {
+        opacity: 5;
+    }
     100% {
         opacity: 0;
         transform: translate(41%, 160%);
