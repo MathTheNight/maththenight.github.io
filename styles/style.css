@@ -41,7 +41,11 @@ body {
     0% {
         transform: translate(41%, -120%);
     }
-    50% {
+    40% {
+        transform: translate(41%, 160%);
+        opacity: 1;
+    }
+    80% {
         transform: translate(41%, 160%);
         opacity: 1;
     }
@@ -55,12 +59,13 @@ body {
     0% {
         transform: translate(41%, 500%);
     }
-    50% {
+    40% {
         transform: translate(41%, 160%);
         opacity: 1;
     }
-    90% {
-        opacity: 5;
+    80% {
+        transform: translate(41%, 160%);
+        opacity: 1;
     }
     100% {
         opacity: 0;
@@ -73,7 +78,7 @@ body {
     background-position: center;
     width: 100%;
     height: 20%; 
-    animation: up-to-down-logo 3s ease-out;
+    animation: up-to-down-logo 2.8s ease-out;
     animation-fill-mode: forwards;
 }
 #logo-positionM {
@@ -82,13 +87,14 @@ body {
     background-position: center;
     width: 100%;
     height: 20%; 
-    animation: down-to-up-logo 3s ease-out;
+    animation: down-to-up-logo 2.8s ease-out;
     animation-fill-mode: forwards;
 }
 
 #fullscreen-div {
     width: 100vw; 
     height: 100vh; 
+    transform: translate(0%, 0%);
     background-image: url('../images/Decor/LoadingBigBack.png'); 
     position: fixed; 
     background-size: cover;
