@@ -16,7 +16,13 @@
 }
 
 body {
-    /* flex: 1; */
+    /* Hide scrollbars for IE and Edge */
+    -ms-overflow-style: none;
+    /* Hide scrollbars for Firefox */
+    scrollbar-width: none;
+
+    background-image: url(../images/Decor/RegularBanner2.png);
+    background-size: 100% 100%;
     background-color: rgb(255, 255, 255);
     font-family: Roboto-Black;
     width: 100%;
@@ -25,6 +31,11 @@ body {
     padding: 0;
     z-index: -1;
 }
+
+body::-webkit-scrollbar {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+  }
 
 @keyframes background-animation-1 {
     0% {
@@ -231,3 +242,11 @@ body {
     padding: 0;
     margin: 0;
 }
+
+#template-banner {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* all of the above so far was template ids */
