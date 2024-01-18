@@ -15,13 +15,15 @@
     src: url('../fonts/Roboto-Regular.ttf');
 }
 
+#body-background {
+    background-image: url('../images/Decor/RegularBanner3.png');
+}
+
 body {
     /* Hide scrollbars for IE and Edge */
     -ms-overflow-style: none;
     /* Hide scrollbars for Firefox */
     scrollbar-width: none;
-
-    background-image: url(../images/Decor/RegularBanner3.png);
     background-size: 100% 100%;
     background-color: rgb(255, 255, 255);
     font-family: Roboto-Black;
@@ -74,6 +76,7 @@ body::-webkit-scrollbar {
         opacity: 0;
     } 
 }
+
 @keyframes down-to-up-logo {
     /* A goes from bottom and is in front*/
     0% {
@@ -146,8 +149,6 @@ body::-webkit-scrollbar {
 #fullscreen-div {
     width: 100%;
     height: 100%;
-    top: 0%;
-    left: 0%;
     background-image: url('../images/Decor/LoadingBigBack.png'); 
     position: fixed; 
     background-position: center;
@@ -156,84 +157,6 @@ body::-webkit-scrollbar {
     animation-fill-mode: forwards;
     pointer-events: none;
     display: block;
-}
-
-#banner {
-    position: fixed;
-    /* top: 0; */
-    z-index: 20;
-}
-
-#banner img {
-    width: 150px;
-    height: 100%;
-}
-
-#banner {
-    height: 60px;
-    width: 100%;
-    background-image: url('../images/Decor/RegularBanner2.png');
-    color: rgb(255, 185, 94);
-}
-
-#carbons {
-    font-family: Roboto-Condensed;
-
-}
-
-#space1 {
-    width: 10%;
-}
-#space2 {
-    width: 10%;
-}
-#selection2 a {
-    background-image: url('../images/UI/buttonstrike2.png');
-    background-size: 90% 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 1%;
-    height: 100%;
-    z-index: 40;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(255, 185, 94);
-}
-
-#selection2 a:hover {
-    animation: button-highlight-in 0.5s ease-out;
-    animation-fill-mode: forwards;
-}
-#selection2 a:not(:hover) {
-    animation: button-highlight-out 0.5s ease-out;
-    animation-fill-mode: forwards;
-}
-
-#selection2 table {
-    text-align: right;
-    width: 70%;
-}
-
-#banner td {
-    border-collapse: collapse;
-    flex: 1;
-}
-
-#selection2 table {
-    width: 120%;
-}
-#selection2 table td a {
-    text-decoration: none;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(255, 185, 94, 0);
-    border-bottom-width: 3px;
-    padding: 5px;
-    margin: -5px;
-    text-align: center;
 }
 
 #banner-3 video {
@@ -249,24 +172,12 @@ body::-webkit-scrollbar {
     height: 500px;
 }
 
-#banner-3 {
-    background-image: url('../images/Decor/RegularBanner.png');
-    padding: 0;
-    margin: 0;
-}
-
 #lineblock {
     width: 100%;
     height: 60px;
     background-image: url('../images/Decor/RegularBanner.png');
     padding: 0;
     margin: 0;
-}
-
-#template-banner {
-    height: 60px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
 }
 
 /* default space between major topics */

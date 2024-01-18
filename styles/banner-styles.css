@@ -1,0 +1,106 @@
+@keyframes button-highlight-in {
+    /* animation: background-animation-1 3s ease-out;
+    animation-fill-mode: forwards; */
+    0% {
+        background-image: url('../images/UI/buttonstrike2.png');
+    }
+    100% {
+        background-image: url('../images/UI/buttonstrike.png');
+    }
+}
+@keyframes button-highlight-out {
+    /* animation: background-animation-1 3s ease-out;
+    animation-fill-mode: forwards; */
+    0% {
+        background-image: url('../images/UI/buttonstrike.png');
+    }
+    100% {
+        background-image: url('../images/UI/buttonstrike2.png');
+    }
+}
+
+
+#fixed {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+#banner img {
+    width: 150px;
+    height: 100%;
+}
+
+#padding1 {
+    color: rgb(255, 185, 94);
+}
+
+#body-banner-transparent {
+    background: transparent;
+    height: auto;
+}
+
+#banner {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/Decor/RegularBanner2.png');
+    color: rgb(255, 185, 94);
+}
+
+#transparent-table-banner {
+    background: transparent;
+}
+
+#carbons {
+    font-family: Roboto-Condensed;
+    color: rgb(255, 185, 94);
+}
+
+#space1 {
+    width: 10%;
+}
+#space2 {
+    width: 10%;
+}
+
+#selection {
+    float: left;
+}
+
+#selection img {
+    padding-left: 30px;
+}
+
+#selection2 a {
+    background-image: url('../images/UI/buttonstrike2.png');
+    background-size: 90% 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1%;
+    height: 100%;
+    z-index: 40;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 185, 94);
+}
+
+#selection2 a:hover {
+    animation: button-highlight-in 0.5s ease-out;
+    animation-fill-mode: forwards;
+}
+#selection2 a:not(:hover) {
+    animation: button-highlight-out 0.5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+#selection2 table td a {
+    text-decoration: none;
+    border-bottom-style: solid;
+    padding: 5px;
+    margin: -5px;
+    text-align: center;
+}
