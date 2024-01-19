@@ -125,8 +125,6 @@ body::-webkit-scrollbar {
     z-index: 999;
     background-position: center;
     max-width: 100%;
-    animation: up-to-down-logo 2.8s ease-out;
-    animation-fill-mode: forwards;
     pointer-events: none;
     display: block;
 }
@@ -136,8 +134,6 @@ body::-webkit-scrollbar {
     z-index: 998;
     background-position: center;
     max-width: 100%;
-    animation: down-to-up-logo 2.8s ease-out;
-    animation-fill-mode: forwards;
     pointer-events: none;
     display: block;
 }
@@ -149,8 +145,6 @@ body::-webkit-scrollbar {
     position: fixed; 
     background-position: center;
     z-index: 997;
-    animation: background-animation-1 3s ease-out;
-    animation-fill-mode: forwards;
     pointer-events: none;
     display: block;
 }

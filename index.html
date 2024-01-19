@@ -46,10 +46,32 @@
     </div>
 
 
-<div id="fullscreen-div"></div>
-<div id="logo-positionA"><img src="./images/Decor/AirMechLogoCircleCleanA.png"></div>
-<div id="logo-positionM"><img src="./images/Decor/AirMechLogoCircleCleanM.png"></div>
-    
+<div id="fullscreen-div" onload="animationbg()"></div>
+<div id="logo-positionA" onload="animationA()"><img src="./images/Decor/AirMechLogoCircleCleanA.png"></div>
+<div id="logo-positionM" onload="animationB()"><img src="./images/Decor/AirMechLogoCircleCleanM.png"></div>    
+<script>
+    function animationbg() {
+        var x = 1;
+    }
+    function animationA() {
+        var y = 1;
+    }
+    function animationB() {
+        var z = 1;
+    }
+    if (x = 1, y = 1, z = 1) {
+        document.getElementById("fullscreen-div").style.animation = "background-animation-1 3s ease-out";
+        document.getElementById("fullscreen-div").style.animationFillMode = "forwards";
+
+        document.getElementById("logo-positionA").style.animation = "up-to-down-logo 2.8s ease-out";
+        document.getElementById("logo-positionA").style.animationFillMode = "forwards";
+
+        document.getElementById("logo-positionM").style.animation = "down-to-up-logo 2.8s ease-out";
+        document.getElementById("logo-positionM").style.animationFillMode = "forwards";
+    }
+</script>
+
+
 <div id="banner-3">
     <video autoplay muted loop playsinline>
         <source src="./videos/test.mp4" type="video/mp4">
