@@ -35,13 +35,9 @@
     color: rgb(255, 185, 94);
 }
 
-#body-banner-transparent {
-    background: transparent;
-    height: auto;
-}
-
 #banner {
-    height: 100%;
+    position: fixed;
+    height: 60px;
     width: 100%;
     background-image: url('../images/Decor/RegularBanner2.png');
     color: rgb(255, 185, 94);
@@ -54,6 +50,7 @@
 #carbons {
     font-family: Roboto-Condensed;
     color: rgb(255, 185, 94);
+    text-align: center;
 }
 
 #space1 {
