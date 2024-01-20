@@ -51,13 +51,15 @@
     font-family: Roboto-Condensed;
     color: rgb(255, 185, 94);
     text-align: center;
+    right: 0;
+    position: absolute;
 }
 
 #space1 {
-    width: 10%;
+    width: 5%;
 }
 #space2 {
-    width: 10%;
+    width: 5%;
 }
 
 #selection {
