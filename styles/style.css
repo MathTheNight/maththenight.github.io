@@ -264,3 +264,40 @@ body::-webkit-scrollbar {
     animation: a-highlight-out 0.001s ease-out;
     animation-fill-mode: forwards;
 }
+
+#clear-a {
+    text-decoration: none;
+    color: gray;
+    font-size: 110%;
+}
+#clear-a:hover {
+    animation: a-highlight-in 0.001s ease-out;
+    animation-fill-mode: forwards;
+}
+
+#clear:not(:hover) {
+    animation: a-highlight-out 0.001s ease-out;
+    animation-fill-mode: forwards;
+}
+
+#list-items tr th {
+    padding: 3px;
+    background-position: center;
+    background-image: url(../assets/itemframe.png);
+}
+#list-items {
+    width: auto;
+}
+
+#clear-b {
+    text-decoration: none;
+    color: gray;
+    font-family: Roboto-Condensed;
+}
+
+#item-left-right {
+    width: 100%;
+}
+#item-left-right tr td{
+    width: 50%;
+}
