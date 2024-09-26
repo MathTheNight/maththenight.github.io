@@ -208,7 +208,7 @@ body::-webkit-scrollbar {
 
 #index-banner-1 {
     background-image: url(../images/Decor/RegularBanner.png);
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     color: gray;
     font-family: Roboto-Light;
@@ -227,14 +227,18 @@ body::-webkit-scrollbar {
     background-size: 100% 100%;
     background-position: center;
     text-align: center;
-    width: 80vh;
     height: 200px;
-    padding-top: 15px;
+    padding-top: 3%;
     font-family: Roboto-Regular;
 }
 #table-credits table {
-    width: 100%;
+    min-width: 10%;
+	max-width: 100%;
     table-layout: fixed;
+}
+#table-credits img {
+	min-width: 2%;
+	max-width: 80%;
 }
 
 @keyframes a-highlight-in {
@@ -280,13 +284,17 @@ body::-webkit-scrollbar {
     animation-fill-mode: forwards;
 }
 
-#list-items tr th {
-    padding: 3px;
+#list-items img {
+    padding: 5%;
     background-position: center;
     background-image: url(../assets/itemframe.png);
+	background-size: cover;
 }
-#list-items {
-    width: auto;
+#list-items img {
+min-height: 10%;
+max-height: 70%;
+min-width: 10%;
+max-width: 50%;
 }
 
 #clear-b {
