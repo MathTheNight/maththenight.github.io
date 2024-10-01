@@ -34,20 +34,21 @@
 #selection img {
     padding-left: 2vw;
     padding-top: 1vh;
-    padding-right: 5vw;
 }
 
 #padding1 {
     color: rgb(255, 185, 94);
     font-size: 1vw;
+    text-align: left;
 }
 
 #banner {
     position: fixed;
-    width: 100vw;  /* 50% of the viewport width */
-    height: 10vh; /* 50% of the viewport height */
+    width: 100vw;
+    height: 10vh;
     background-image: url('../images/Decor/RegularBanner2.png');
     color: rgb(255, 185, 94);
+    padding-top: 2vh;
 }
 
 #transparent-table-banner {
@@ -58,14 +59,14 @@
     font-family: Roboto-Condensed;
     color: rgb(255, 185, 94);
     padding-left: 1vw;
-    font-size: 1.4vw;
+    font-size: 1vw;
     width: 25vw;
     text-align: right;
     padding-right: 30px;
 
 }
 #space2 {
-    width: 5%;
+    width: 10vw;
 }
 
 #selection2 a {
@@ -76,19 +77,8 @@
     float: left;
 }
 
-#selection2 td {
-    width: 1vw;
-    height: 1vh;
-}
 
-#scaled table {
-    width: 80vw;
-    height: 80vh;
-}
-#selection2 td {
-    width: 20%;
-    height: 20%;
-}
+
 
 
 #selection2 a {
@@ -97,6 +87,7 @@
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 1vh;
+    padding-bottom: 1vh;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 40;
