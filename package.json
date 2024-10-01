@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MathTheNight/maththenight.github.io/issues"
   },
-  "homepage": "https://github.com/MathTheNight/maththenight.github.io#readme"
+  "homepage": "https://github.com/MathTheNight/maththenight.github.io#readme",
+  "dependencies": {
+    "astro": "^4.15.9"
+  }
 }
