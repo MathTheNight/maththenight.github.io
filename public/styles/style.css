@@ -230,6 +230,23 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
+#index-banner-1 {
+    font-size: 2vh;
+}
+
+#preview-item img {
+    width: 5vw;
+}
+
+#item-left-right th img {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-position: center;
+    background-image: url(../assets/itemframe.png);
+	background-size: cover;
+}
 
 #item-left-right {
     width: 90%;
@@ -295,7 +312,7 @@ body::-webkit-scrollbar {
 #clear-a {
     text-decoration: none;
     color: gray;
-    font-size: 110%;
+    font-size: 140%;
 }
 #clear-a:hover {
     animation: a-highlight-in 0.001s ease-out;
