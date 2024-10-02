@@ -114,8 +114,11 @@
 } */
 
 .half {
-    width: 50%;
+    width: 90%;
     flex: auto;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

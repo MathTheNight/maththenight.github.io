@@ -178,7 +178,7 @@ body::-webkit-scrollbar {
 /* default space between major topics */
 #empty-path {
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,8 +186,10 @@ body::-webkit-scrollbar {
 
 #empty-path img {
     width: 40vw;
-    height: 25vh;
+    min-height: 10vh;
 }
+
+
 /* all of the above so far was template ids */
 
 #index-banner-main {
@@ -199,9 +201,6 @@ body::-webkit-scrollbar {
 
     /* temporary */
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #padded {
@@ -218,7 +217,6 @@ body::-webkit-scrollbar {
 
 #index-banner-1 {
     background-image: url(../images/Decor/RegularBanner.png);
-    max-width: auto;
     height: auto;
     color: gray;
     font-family: Roboto-Light;
@@ -227,6 +225,22 @@ body::-webkit-scrollbar {
     margin-top: 10px;
     text-align: left;
 }
+
+#item-left-right tr {
+    width: 100%;
+}
+
+
+#item-left-right {
+    width: 90%;
+    font-size: 2.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0;
+    padding-bottom: 1vh;
+}
+
+
 #index-banner-1 h3,h2,h1,h4 {
     color: white;
 }
@@ -238,15 +252,16 @@ body::-webkit-scrollbar {
     text-align: center;
     height: 30vh;
     font-family: Roboto-Regular;
-    width: 40vw;
+    width: 50vw;
 }
 #table-credits table {
     width: 100%;
     table-layout: fixed;
 }
 #table-credits img {
-    height: 100%;
-    width: 13vw;
+    height: 90%;
+    padding-top: -3vh;
+    width: 10vw;
 }
 
 @keyframes a-highlight-in {
